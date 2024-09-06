@@ -1,0 +1,42 @@
+.rcs-palette-container {
+    margin-bottom: 2px;
+}
+
+.rcs-color-grid {
+    display: flex;
+    flex-wrap: nowrap;
+}
+
+.rcs-color-block {
+    width: 20px;
+    height: 20px;
+    margin: 2px;
+    cursor: pointer;
+    transition: transform 0.2s, border 0.2s; /* Smooth transition for hover effect */
+    box-sizing: border-box; /* Include padding and border in the element's total width and height */
+}
+
+.rcs-color-block:hover {
+    transform: scale(1.2); /* Enlarge the block slightly on hover */
+    border: 2px solid #000; /* Add a border on hover */
+}
+
+#rcs-display-container {
+    margin-top: 2px;
+}
+
+.hidden-label {
+    display: none;
+}
+
+.small-label {
+    font-size: 0.8em; /* Adjust the font size as needed */
+}
+
+.rcs-color-box {
+    width: 100px;
+    height: 100px;
+    margin: 10px;
+    display: inline-block;
+    border: 1px solid #000;
+}

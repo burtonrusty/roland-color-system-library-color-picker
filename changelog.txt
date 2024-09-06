@@ -1,0 +1,21 @@
+# Changelog
+
+## [1.0.1] - 2024-09-05
+### Added
+- Added functionality to save user-selected colors.
+- Implemented AJAX handlers for saving and deleting user colors.
+- Added nonce verification for security in AJAX requests.
+
+### Changed
+- Updated color block click handler to use data attributes for hex values.
+- Improved form submission handling for saving colors.
+
+### Fixed
+- Fixed issue with color not being set correctly in the database.
+- Resolved bug where non-logged-in users could attempt to save colors.
+
+## [1.0.0] - 2024-08-30
+### Added
+- Initial release of the roland-color-system-library plugin.
+- Basic functionality for displaying color blocks from the roland color system library.
+- Initial setup for AJAX requests and handlers.
