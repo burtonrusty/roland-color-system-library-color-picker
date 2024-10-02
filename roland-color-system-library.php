@@ -13,6 +13,7 @@ require_once plugin_dir_path(__FILE__) . 'includes/ajax-functions.php';
 require_once plugin_dir_path(__FILE__) . 'includes/db-functions.php';
 require_once plugin_dir_path(__FILE__) . 'includes/functions.php';
 require_once plugin_dir_path(__FILE__) . 'includes/admin-settings.php';
+require_once plugin_dir_path(__FILE__) . 'includes/rest-api.php';
 
 // Add settings link to plugin actions
 function rcs_add_settings_link($links) {
